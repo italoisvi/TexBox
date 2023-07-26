@@ -1,0 +1,23 @@
+{
+  "name": "texbox",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node countlines.js"
+  },
+  "bin": {
+    "texbox": "./countlines.js"
+  },
+  "pkg": {
+    "scripts": "start",
+    "targets": [
+      "node14-win",
+      "node14-linux",
+      "node14-macos"
+    ]
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "find-files": "^0.0.3",
+    "octokit": "^3.0.0"
+  }
+}
