@@ -73,7 +73,7 @@ if (args.length > 0) {
 function countLines() {
   const owner = document.getElementById("owner").value;
   const repo = document.getElementById("repo").value;
-  const token = document.getElementById("token").value;
+  const token = document.getElementById("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").value;
 
   // Faça uma solicitação HTTP para a API do GitHub
   const response = fetch(`https://api.github.com/repos/${owner}/${repo}/contents`, {
