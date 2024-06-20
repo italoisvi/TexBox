@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "msdossite",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
